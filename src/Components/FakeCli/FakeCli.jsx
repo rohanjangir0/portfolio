@@ -61,7 +61,7 @@ function FakeCli() {
           <span className="dot red"></span>
           <span className="dot yellow"></span>
           <span className="dot green"></span>
-          <span className="cli-title">Alex's Portfolio Terminal</span>
+          <span className="cli-title">Rohan Portfolio Terminal</span>
         </div>
 
         <div className="cli-screen" ref={scrollerRef}>

@@ -1,0 +1,97 @@
+/* Coffee Splash Screen */
+.splash-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #3e2723; /* dark coffee brown */
+  color: #f5e6d3; /* creamy beige */
+  font-family: "Georgia", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  transition: opacity 1s ease-in-out;
+}
+
+.splash-screen.fade-out {
+  opacity: 0;
+}
+
+.splash-text {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: #d7ccc8;
+  animation: fadeInText 2s ease-in-out;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Coffee Cup */
+.coffee-cup {
+  position: relative;
+  width: 100px;
+  height: 60px;
+  background: #6d4c41;
+  border-radius: 0 0 50px 50px;
+  overflow: hidden;
+}
+
+.coffee-cup::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 100%;
+  width: 30px;
+  height: 30px;
+  border: 5px solid #6d4c41;
+  border-radius: 50%;
+}
+
+/* Steam animation */
+.steam {
+  position: absolute;
+  bottom: 60px;
+  width: 10px;
+  height: 30px;
+  background: transparent;
+  border-radius: 50%;
+  animation: steamUp 3s infinite;
+  opacity: 0.7;
+}
+
+.steam1 {
+  left: 25px;
+  animation-delay: 0s;
+}
+.steam2 {
+  left: 45px;
+  animation-delay: 1s;
+}
+.steam3 {
+  left: 65px;
+  animation-delay: 2s;
+}
+
+@keyframes steamUp {
+  0% {
+    transform: translateY(0) scale(0.8);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-30px) scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-60px) scale(0.9);
+    opacity: 0;
+  }
+}

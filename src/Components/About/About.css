@@ -1,0 +1,85 @@
+.about-section {
+  background: #fdfaf7;
+  padding: 80px 12%;
+  text-align: center;
+  color: #5a3d2b;
+  font-family: "Jost", sans-serif;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  color: #7b5e48;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  text-align: left;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #4d3728;
+}
+
+.skills-tags {
+  margin-top: 25px;
+}
+
+.skills-tags span {
+  display: inline-block;
+  background: #f3e9df;
+  color: #5a3d2b;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin: 6px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.skills-tags span:hover {
+  background: #e2d3c6;
+  transform: scale(1.05);
+}
+
+.about-stats {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.stat-box {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.stat-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.stat-box h3 {
+  font-size: 2rem;
+  color: #b07b4c;
+  margin-bottom: 8px;
+}
+
+.stat-box p {
+  font-size: 0.95rem;
+  color: #6a4b34;
+}

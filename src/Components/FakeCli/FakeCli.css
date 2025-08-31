@@ -1,0 +1,119 @@
+:root {
+  --bg: #faf6f2;
+  --ink: #6b5b4b;
+  --panel: #ffffff;
+  --panel-border: #e7e0d8;
+  --titlebar: #f3f0ec;
+  --shadow: 0 10px 30px rgba(117, 93, 73, 0.15);
+}
+
+/* Wrapper */
+.cli-wrapper {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  font-family: 'Jost', sans-serif;
+}
+
+/* Header */
+.cli-header {
+  font-size: 26px;
+  font-weight: 600;
+  color: #9b7553;
+  margin-bottom: 24px;
+}
+.cli-chevron {
+  margin-right: 8px;
+}
+
+/* Terminal box */
+.cli-terminal {
+  width: min(900px, 100%);
+  border-radius: 14px;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+/* Title bar */
+.cli-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: var(--titlebar);
+  border-bottom: 1px solid var(--panel-border);
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot.red {
+  background: #ff5f56;
+}
+.dot.yellow {
+  background: #ffbd2e;
+}
+.dot.green {
+  background: #27c93f;
+}
+.cli-title {
+  margin-left: 12px;
+  font-size: 14px;
+  color: #7b6a58;
+}
+
+/* Screen */
+.cli-screen {
+  height: 480px;
+  padding: 18px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4c433b;
+  overflow-y: auto;
+  background: linear-gradient(180deg, #ffffff 0%, #fffaf5 100%);
+}
+.cli-line {
+  white-space: pre-wrap;
+}
+
+/* Input row */
+.cli-inputrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+.prompt {
+  color: #8b7a68;
+}
+.cli-input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #4c433b;
+  font-size: 14px;
+}
+.hint {
+  font-size: 1.1rem;
+  color: #4a2e2e; /* dark brownish text */
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.cmd {
+  background: #f3eee9;
+  color: #6d3b2e;
+  font-family: "Courier New", monospace;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}

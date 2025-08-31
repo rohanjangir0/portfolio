@@ -1,0 +1,139 @@
+.contact-section {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #fdfaf7; /* soft coffee paper tone */
+  color: #4a2c1a;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7a4b2d;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #6b4b3e;
+  margin-bottom: 2.5rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+  text-align: left;
+}
+
+.contact-info h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: #5a3725;
+}
+
+.info-card {
+  background: #f5f0eb;
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  transition: transform 0.2s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-3px);
+  background: #efe4dc;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #7a4b2d;
+  background: #e8d8ce;
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+
+.socials {
+  margin-top: 1.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  font-size: 1.4rem;
+  color: #7a4b2d;
+  background: #f2ebe6;
+  padding: 0.6rem;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.social-icons a:hover {
+  background: #7a4b2d;
+  color: #fff;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 320px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fdfaf7;
+  font-size: 0.9rem;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-form button {
+  background: #7a4b2d;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  transition: background 0.2s ease;
+}
+
+.contact-form button:hover {
+  background: #5c3520;
+}

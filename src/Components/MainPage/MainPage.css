@@ -1,0 +1,84 @@
+.main-page {
+  text-align: center;
+  padding: 200px 20px;
+  font-family: 'Jost', sans-serif;
+  background: linear-gradient(to bottom right, #fdfdfd, #f8f5f2);
+  min-height: 100vh;
+}
+
+.intro {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.my-name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #7a4b2d;
+  margin-bottom: 1rem;
+}
+
+.my-name span {
+  color: #a0653b;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #6b4c3b;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+}
+
+.main-btns {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.mywork {
+  background-color: #7a4b2d;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mywork:hover {
+  background-color: #5c3620;
+  transform: scale(1.1);
+}
+
+.resume {
+  background: rgba(255, 255, 255, 0.15); /* transparent glass look */
+  border-radius: 12px;
+  padding: 12px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #000000;  /* white text for contrast */
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  backdrop-filter: blur(12px);   /* frosted glass blur */
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2); /* subtle depth */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.resume:hover {
+  transform: scale(1.08);
+  background: rgba(255, 255, 255, 0.25); /* slightly brighter glass */
+  box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+}

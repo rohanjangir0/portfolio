@@ -13,7 +13,7 @@ function FakeCli() {
   const commands = {
     hello: "👋 Hey there! I'm Rohan Jangir, a passionate web developer who loves creating beautiful, functional experiences. Thanks for stopping by my terminal!",
     about: "I'm a web developer with experience in modern technologies, crafting smooth user experiences and scalable solutions.",
-    projects: "You can check out my projects at: github.com/alexjohnson",
+    projects: "You can check out my projects at: github.com/rohanjangir0",
     hireme: `💌 Excited to work together! Here's how to reach me:\n\n📧 Email: rohancjj2003@gmail.com\n🔗 LinkedIn: /in/rohanjangir0\n📂 Phone: +91 8107171472\n\nI'm currently available for freelance projects and full-time opportunities. Let's build something amazing!`,
     help: "Available commands: hello, about, projects, hireme",
      rohansecret: `

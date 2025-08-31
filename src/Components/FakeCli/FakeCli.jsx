@@ -3,7 +3,7 @@ import "./FakeCli.css";
 
 function FakeCli() {
   const [output, setOutput] = useState([
-    "Welcome to Alex's Portfolio Terminal! ✨",
+    "Welcome to Rohan Portfolio Terminal! ✨",
     "",
     'Type "help" to see available commands or try: hello, about, projects, hireme',
   ]);

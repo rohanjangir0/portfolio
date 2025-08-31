@@ -7,8 +7,8 @@ export const projects = [
     description: "Modern, responsive portfolio website with smooth animations and interactive elements.",
     tags: ["React", "CSS", "Animations"],
     image: "/images/portfolio.png",
-    demoLink: "https://your-live-demo-link.com",
-    githubLink: "https://github.com/yourusername/portfolio"
+    demoLink: "https://portfolio-rohancjj.vercel.app/",
+    githubLink: "https://github.com/rohanjangir0/portfolio"
   },
   {
     id: 2,

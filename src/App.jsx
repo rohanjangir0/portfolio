@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './Components/Navbar/Navbar.jsx'
 import MainPage from './Components/MainPage/MainPage'
 import FakeCli from './Components/FakeCli/FakeCli'
 import ProjectEstimator from './Components/ProjectEstimator/ProjectEstimator'

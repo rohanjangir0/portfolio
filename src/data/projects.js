@@ -6,7 +6,7 @@ export const projects = [
     title: "Portfolio Website",
     description: "Modern, responsive portfolio website with smooth animations and interactive elements.",
     tags: ["React", "CSS", "Animations"],
-    image: "/images/portfolio.png",
+    image: "/portfolio.jpg",
     demoLink: "https://portfolio-rohancjj.vercel.app/",
     githubLink: "https://github.com/rohanjangir0/portfolio"
   },
